@@ -1,0 +1,25 @@
+.my-component{
+  /* width: 750px; */
+
+  display: flex;
+  justify-content: space-around;
+
+}
+.resultRight,
+.EditorLeft{
+  /* flex: 1; */
+  flex-basis: 750px;
+  width: 750px;
+  min-width: 750px;
+  background: #ffffff;
+}
+
+header{
+  background: #bdb2ff;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.input-box{
+  margin: 0 20px;
+}
